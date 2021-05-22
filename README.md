@@ -14,34 +14,5 @@
             grande e irreconocible almomento de adjuntar, o un ensayo que es muy incomodo y largo 
             para leerlo en la guía. Espero su comprensión.</p>
         <br>
-
-    <h2>Redirecciones</h2>
-        <br>
-
-        <a href="Guias/Administración y soporte a las computadoras/">Administración y soporte a las computadoras</a>
-<br>
-        <a href="Guias/Educ. Civica/">Educ. Civica</a>
-<br>
-        <a href="Guias/Educ. Física/">Educ. Física</a>
-<br>
-        <a href="Guias/Español/">Español</a>
-<br>
-        <a href="Guias/Estudios Sociales/">Estudios Sociales</a>
-<br>
-        <a href="Guias/Fundamentos de Programación/">Fundamentos de Programación</a>
-<br>
-        <a href="Guias/Física/">Física</a>
-<br>
-        <a href="Guias/Inglés Académico/">Inglés Académico</a>
-<br>
-        <a href="Guias/Inglés Técnico/">Inglés Técnico</a>
-<br>
-        <a href="Guias/Matemática/">Matemática</a>
-<br>
-        <a href="Guias/Música/">Música</a>
-<br>
-        <a href="Guias/Orientación/">Orientación</a>
-
-        <a href="Guias/Tecnologías de información aplicadas a la configuración y soporte de redes y sistemas operativos/">Tecnologías de información aplicadas a la configuración y soporte de redes y sistemas operativos</a>
 </body>
 </html>
