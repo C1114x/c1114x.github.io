@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://freepikpsd.com/wp-content/uploads/2019/10/guantes-de-boxeo-png-1-Transparent-Images.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <style>body{background-image: url(data:image/jpeg;base64,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); background-size: 720px;}</style>
+
+    <title>Cristopher Corrales Arias 10-3</title>
+</head>
+<body>
+    <h1 style="width: 90%;">Partes de la Tarjeta Madre</h1>
+
+    <br>
+    
+    <ul>
+         <li style="width: 70%;"><h2>Socket para Procesador</h2></li>
+            <img src="Imagenes/Socket_Procesador.jpg" width="35%" alt="">
+            <p style="width: 50%;"><strong>
+                El socket es el conector de la placa base sobre el que se coloca el procesador,
+                 de ahí ese nombre que en castellano significa enchufe. Su función, es dar 
+                 corriente eléctrica al micro, servir de anclaje y permitir la comunicación 
+                 entre este y los demás componentes del sistema.</strong>
+            </p>
+            <br>
+
+         <li style="width: 70%;"><h2>Zócalo de Memoria</h2></li>
+            <img src="Imagenes/Zocalo_Memoria.jpg" width="35%" alt="">
+            <p style="width: 50%;"><strong>
+                Los zócalos de memoria son las ranuras de la placa donde se alojan los módulos 
+                de memoria. Han existido varios formatos de zócalos, pero el actual es el DIMM. 
+                El zócalo DIMM: existe en tres formatos distintos que tienen la misma dimensión, 
+                pero albergan tipos de memoria diferentes</strong>
+            </p>
+            <br>
+
+         <li style="width: 70%;"><h2>Chipset (Northbridge y Southbridge)</h2></li>
+            <img src="Imagenes/Chipset.jpg" width="35%" alt="">
+            <p style="width: 50%;"><strong>Su función es controlar el flujo de datos entre el 
+                procesador, la memoria y los diferentes periféricos que haya en un ordenador.
+            </strong>
+            </p>
+            <br>
+
+         <li style="width: 70%;"><h2>Conector ATX12V</h2></li>
+            <img src="Imagenes/Conector.jpg" width="35%" alt="">
+            <p style="width: 50%;">
+                <strong>Conectores de alimentación ATX son los tipos específicos de conectores 
+                    diseñados para conectar un ordenador de la fuente de alimentación ATX a la 
+                    placa madre</strong>
+            </p>
+            <br>
+
+         <li style="width: 70%;"><h2>ROM bios</h2></li>
+            <img src="Imagenes/ROM_Bios.jpg" width="35%" alt="">
+            <p style="width: 50%;">
+                <strong>Es una pequeña pieza de software alojada en la tarjeta madre de nuestro 
+                    PC, cuya función es activar todos los controladores y las funciones 
+                    necesarias para el correcto funcionamiento del PC</strong>
+            </p>
+            <br>
+
+         <li style="width: 70%;"><h2>IDE (anteriores)</h2></li>
+            <img src="Imagenes/IDE.jpg" width="35%" alt="">
+            <p style="width: 50%;">
+                <strong>controla los dispositivos de almacenamiento masivo de datos, como los 
+                    discos duros y ATAPI, además añade dispositivos como las unidades CD-ROM.
+                </strong>
+            </p>
+            <br>
+
+         <li style="width: 70%;"><h2>SATA</h2></li>
+            <img src="Imagenes/SATA.jpg" width="35%" alt="">
+            <p style="width: 50%;">
+                <strong>Es una interfaz de bus de computadoras para la transferencia de datos 
+                    entre la placa base y algunos dispositivos de almacenamiento</strong>
+            </p>
+            <br>
+
+         <li style="width: 70%;"><h2>Panel frontal</h2></li>
+            <img src="Imagenes/Panel_Frontal.jpg" width="35%" alt="">
+            <p style="width: 50%;">
+                <strong>Es un conjunto de pines que tienen como finalidad encender el ordenador 
+                    encender las luces frontales del gabinete, hacer funcionar el botón de reset 
+                    y en algunas placas hacer funcionar la bocina interna de la computadora</strong>
+            </p>
+            <br>
+
+         <li style="width: 70%;"><h2>Pila (CR2032)</h2></li>
+            <img src="Imagenes/Pila.jpg" width="35%" alt="">
+            <p style="width: 50%;">
+                <strong>Es útil para memorias de computadora, juguetes, relojes, controles 
+                    remotos y más. Tiene una composición química de litio, lo que le brinda una 
+                    mayor duración, es de 3 volts y tiene capacidad nominal de 210 mAh.</strong>
+            </p>
+            <br>
+
+         <li style="width: 70%;"><h2>PS/2 (mouse y teclado)</h2></li>
+            <img src="Imagenes/PS2.jpg" width="35%" alt="">
+            <p style="width: 50%;">
+                <strong>El conector PS/2 o puerto PS/2 toma su nombre de la serie de 
+                    computadoras IBM Personal System/2 que es creada por IBM en 1987, y 
+                    empleada para conectar teclados y ratones.</strong>
+            </p>
+            <br>
+
+         <li style="width: 70%;"><h2>USB</h2></li>
+            <img src="Imagenes/USB.jpg" width="35%" alt="">
+            <p style="width: 50%;">
+                <strong>El Bus Universal en Serie, más conocido por la sigla USB, es un bus de 
+                    comunicaciones que sigue un estándar que define los cables, conectores y 
+                    protocolos usados en un bus para conectar, comunicar y proveer de 
+                    alimentación eléctrica entre computadoras, periféricos y dispositivos 
+                    electrónicos</strong>
+            </p>
+            <br>
+
+         <li style="width: 70%;"><h2>COM1 (serial)</h2></li>
+            <img src="Imagenes/COM.jpg" width="35%" alt="">
+            <p style="width: 50%;">
+                <strong>Un puerto COM1 es un puerto serial en una computadora, que es una ranura 
+                    que permite que los dispositivos periféricos como un ratón o un módem se 
+                    conecten a la computadora a través de un cable.</strong>
+            </p>
+            <br>
+    </ul>
+    <footer>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <strong>© 2021 Copyright: Cristopher Alberto Corrales Arias</strong> 
+        </div>
+    </footer>
+</body>
+</html>
